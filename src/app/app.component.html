@@ -23,6 +23,9 @@
         <div *ngIf="prediction!==''" style="text-decoration: underline;font-size: larger;">
             {{prediction}}
         </div>
+        <div *ngIf="waitMessage!==''" style="font-size: large;">
+          {{waitMessage}}
+      </div>
     </div>
     <button type="submit" [disabled]="comment.trim()===''">Prédire</button>
 </form>
