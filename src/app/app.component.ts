@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http"
 })
 export class AppComponent {
   comment: string = ''
-  modelName: string = 'SVM'
+  modelName: string = 'CNB'
   prediction: string = ''
   waitMessage: string = ''
 
